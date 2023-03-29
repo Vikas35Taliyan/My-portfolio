@@ -9,11 +9,12 @@ const Home = () => {
 
     <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
      <div className="flex flex-col justify-center h-full">
-      <h2 className="text-4xl sm:text-7xl font-bold text-white">
-        Fullstack Developer(Frontend)
+      <h2 className="text-5xl sm:text-6xl font-bold text-white">
+        Frontend Developer(Fresher)
       </h2>
       <p className="py-4 max-w-md text-white">
-      Hello visitor, I am passionate about learning.Currently learning full-stack development from Ineuronai, making stuff and exploring Technology, reading non-fiction books is my passion.Welcome to my little space on the internet.You can find links to my Blogs, social profiles,and my projects here.
+      Hello visitors, I'm vikas Looking an opportunity as a frontend developer. I am dedicated to creating aesthetically pleasing and highly functional web applications. I am also enthusiastic about exploring new technologies and staying up-to-date with industry best practices.
+      If you're interested in seeing some of my work, please visit my GitHub.Feel free to connect with me on LinkedIn and my blog, which is available on Hashnode. Thank you.
       </p>
 
       <div>
