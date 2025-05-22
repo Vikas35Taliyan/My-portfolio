@@ -5,14 +5,14 @@ import { Link } from 'react-scroll';
 
 const Home = () => {
   return (
-    <div name="Home" className="h-screen w-full bg-gradient-to-b from-black to-gray-800">
+    <div id="home" className="h-screen w-full bg-gradient-to-b from-black to-gray-800">
 
     <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
      <div className="flex flex-col justify-center h-full">
-      <h2 className="text-5xl sm:text-6xl font-bold text-white">
-        Frontend Developer(Fresher)
+      <h2 className="text-3xl sm:text-4xl font-bold text-white">
+        Frontend Developer
       </h2>
-      <p className="py-4 max-w-md text-white">
+      <p className="py-4 max-w-xl text-white">
       Hello visitors, I'm vikas Looking an opportunity as a frontend developer. I am dedicated to creating aesthetically pleasing and highly functional web applications. I am also enthusiastic about exploring new technologies and staying up-to-date with industry best practices.
       If you're interested in seeing some of my work, please visit my GitHub.Feel free to connect with me on LinkedIn and my blog, which is available on Hashnode. Thank you.
       </p>
@@ -28,7 +28,7 @@ const Home = () => {
      </div>
 
      <div>
-      <img src={heroimage} alt="profile" className="rounded-2xl mx-auto w-2/3 md:w-full " />
+      <img src={heroimage} alt="profile" className="rounded mx-auto w-1/2 md:w-1/2 " />
      </div>
 
     </div>

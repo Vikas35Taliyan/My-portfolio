@@ -27,15 +27,15 @@ const SocialLinks = () => {
       ),
       href: 'https://github.com/Vikas35Taliyan'
     },
-    {
-      id: 3,
-      child: (
-        <>
-        <>Youtube <FaYoutube size={20} /></>
-        </>
-      ),
-      href: 'https://www.youtube.com/channel/UCgZp6YF9RHE9bFzoHBqKV2Q'
-    },
+    // {
+    //   id: 3,
+    //   child: (
+    //     <>
+    //     <>Youtube <FaYoutube size={20} /></>
+    //     </>
+    //   ),
+    //   href: 'https://www.youtube.com/channel/UCgZp6YF9RHE9bFzoHBqKV2Q'
+    // },
     {
       id: 4,
       child: (
@@ -61,7 +61,7 @@ const SocialLinks = () => {
         <>Resume <BsFillPersonLinesFill size={20} /></>
         </>
       ),
-      href: '/resume.pdf',
+      href: '/resume.docx',
       style: 'rounded-br-md',
       download: true,
     },
@@ -81,7 +81,8 @@ const SocialLinks = () => {
           href={href} 
           className='flex justify-between items-center w-full text-white' 
           download={download}
-          terget="_blank">
+          rel="noreferrer"
+          target="_blank">
           {/* rel="noreferrer" */}
 
         {child}
