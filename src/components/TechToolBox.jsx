@@ -11,68 +11,23 @@ import git from "../assets/git.png";
 
 const TechToolBox = () => {
   const tech = [
-    {
-      id: 1,
-      src: html,
-      title: "HTML",
-      style: "shadow-orange-500",
-    },
-    {
-      id: 2,
-      src: css,
-      title: "CSS",
-      style: "shadow-blue-500",
-    },
-    {
-      id: 3,
-      src: bootstrap,
-      title: "Bootstrap",
-      style: "shadow-yellow-500",
-    },
-    {
-      id: 4,
-      src: tailwind,
-      title: "Tailwind",
-      style: "shadow-sky-400",
-    },
-    {
-      id: 5,
-      src: javascript,
-      title: "Javascript",
-      style: "shadow-yellow-500",
-    },
-    {
-      id: 6,
-      src: react,
-      title: "React",
-      style: "shadow-sky-500",
-    },
-    {
-      id: 7,
-      src: express,
-      title: "Express",
-      style: "shadow-white",
-    },
-    {
-      id: 8,
-      src: mongo,
-      title: "Mongodb",
-      style: "shadow-green-500",
-    },
-    {
-      id: 9,
-      src: git,
-      title: "Git",
-      style: "shadow-orange-500",
-    },
+    { id: 1, src: html, title: "HTML", style: "shadow-orange-500" },
+    { id: 2, src: css, title: "CSS", style: "shadow-blue-500" },
+    { id: 3, src: bootstrap, title: "Bootstrap", style: "shadow-yellow-500" },
+    { id: 4, src: tailwind, title: "Tailwind", style: "shadow-sky-400" },
+    { id: 5, src: javascript, title: "Javascript", style: "shadow-yellow-500" },
+    { id: 6, src: react, title: "React", style: "shadow-sky-500" },
+    { id: 7, src: express, title: "Express", style: "shadow-white" },
+    { id: 8, src: mongo, title: "Mongodb", style: "shadow-green-500" },
+    { id: 9, src: git, title: "Git", style: "shadow-orange-500" },
   ];
 
   return (
     <div
-      name="TechToolBox"
-      className="bg-gradient-to-b from-black to-gray-800 w-full h-screen"
+      id="skills"
+      className="w-full min-h-screen bg-gray-900 text-white py-16"
     >
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
+      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
             Skills
@@ -85,7 +40,7 @@ const TechToolBox = () => {
               key={id}
               className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
             >
-              <img src={src} alt="" className="w-20 mx-auto" />
+              <img src={src} alt={title} className="w-20 mx-auto" />
               <p className="mt-4">{title}</p>
             </div>
           ))}
